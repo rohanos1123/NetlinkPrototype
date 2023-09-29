@@ -5,7 +5,7 @@ from pymongo.mongo_client import MongoClient
 # Establish the initial condition for the mongoDB database
 class DevMongoClient:
     def __init__(self):
-        self.uri = "mongodb+srv://simUser:Raor11232002!@ctstore.pzqy3gs.mongodb.net/?retryWrites=true&w=majority"
+        self.uri = "mongodb+srv://simUser:#####!@ctstore.pzqy3gs.mongodb.net/?retryWrites=true&w=majority"
         # Create a new client and connect to the server
         self.client = MongoClient(self.uri, tlsCAFile=certifi.where())
         self.dbCursor = self.client["NetlinkTest"]
