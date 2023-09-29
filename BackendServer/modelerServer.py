@@ -17,14 +17,14 @@ DATABASE AND TABLE INITIALIZATION
 mySys= mysql.connector.connect(
   host="127.0.0.1",
   user="root",
-  password="Raor11232002!", 
+  password="####", 
 )
 
 
 myDB = mysql.connector.connect(
     host = "127.0.0.1",
     user="root",
-    password = "Raor11232002!",
+    password = "####",
     database="ChronetexDB"
 )
 
