@@ -31,7 +31,8 @@ class GPIOHandler:
 
 
     # [{'DEV_TYPE': 'LED', 'METHOD': 'ACTIVE', 'PARAMS': {'State': 0}, 'PORT': '18'}, {'DEV_TYPE': 'LED', 'METHOD': 'ACTIVE', 'PARAMS': {'State': 0}, 'PORT': '17'}]
-    # PORT SETTING WILL BE DONe in the backend of the device (MAY BE SLOW, FIX LATER YOU FUCKING IDIOT)
+    # PORT SETTING WILL BE DONe in the backend of the device (MAY BE SLOW, FIX LATER YOU F***)
+    IDIOT)
     def Execute(self, Method_Info): 
         port_map = Method_Info["PORT_MAP"]
         command_list = Method_Info["COMMANDS"]
