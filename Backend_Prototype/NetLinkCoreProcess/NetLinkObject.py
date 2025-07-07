@@ -7,22 +7,6 @@ import mysql.connector
 
 
 
-
-
-mySys= mysql.connector.connect(
-  host="127.0.0.1",
-  user="root",
-  password="Raor11232002!", 
-)
-
-
-myDB = mysql.connector.connect(
-    host = "127.0.0.1",
-    user="root",
-    password = "Raor11232002!",
-    database="ChronetexDB"
-)
-
 myCursor = myDB.cursor()
 
 def SQLtoDF_FetchAll(SqlStatement):
